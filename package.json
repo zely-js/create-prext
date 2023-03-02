@@ -1,7 +1,8 @@
 {
   "name": "create-prext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a Tool creating prext app",
+  "homepage": "https://prext.netlify.app/l/create-prext",
   "bin": {
     "create-prext": "./dist/bin.js"
   },
