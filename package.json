@@ -1,6 +1,6 @@
 {
   "name": "create-prext",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a Tool creating prext app",
   "bin": {
     "create-prext": "./dist/bin.js"
