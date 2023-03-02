@@ -2,9 +2,17 @@
   "name": "create-prext",
   "version": "0.0.0",
   "description": "a Tool creating prext app",
+  "bin": {
+    "create-prext": "./dist/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
   "devDependencies": {
     "@types/inquirer": "^9.0.3",
     "@types/node": "^18.7.14",
+    "@types/fs-extra": "^11.0.1",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "esbuild": "^0.15.12",
@@ -19,7 +27,6 @@
     "build": "node build.js"
   },
   "dependencies": {
-    "@types/fs-extra": "^11.0.1",
     "animaux": "^0.0.4",
     "colors": "^1.4.0",
     "fs-extra": "^11.1.0",
