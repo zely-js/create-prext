@@ -8,7 +8,7 @@ import { version } from '../package.json';
 
 const app = animaux('create-prext');
 
-app.version(version).action(async (a) => {
+app.version(version).action(async () => {
   const { name } = await inquirer.prompt({
     name: 'name',
     message: 'Project name:',
@@ -23,7 +23,7 @@ app.version(version).action(async (a) => {
     name: 'template',
     message: 'Template:',
     type: 'list',
-    choices: ['typescript', 'javascript'],
+    choices: ['typescript', 'javascript', 'react'],
   });
 
   createPrext({ appName: name, dir, template });

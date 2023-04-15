@@ -1,0 +1,27 @@
+body {
+  color: #142049;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  width: 35px;
+  height: 35px;
+
+  margin: 10px;
+
+  background-color: #fff;
+
+  border: 1px solid #a7a7a7;
+  border-radius: 7px;
+}
+
+button:hover {
+  border: 1px solid #5471f1;
+}
+
+.counter {
+  text-align: center;
+}
