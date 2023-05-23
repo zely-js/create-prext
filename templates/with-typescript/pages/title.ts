@@ -1,5 +1,5 @@
-import { PrextRequest, PrextResponse } from 'prext';
+import { ZelyRequest, ZelyResponse } from 'zely';
 
-export function get(req: PrextRequest, res: PrextResponse) {
+export function get(req: ZelyRequest, res: ZelyResponse) {
   res.json({ title: 'Prext App' });
 }

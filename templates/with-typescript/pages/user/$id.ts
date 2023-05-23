@@ -1,4 +1,4 @@
-import { PrextRequest, PrextResponse } from 'prext';
+import { ZelyRequest, ZelyResponse } from 'zely';
 
 type Users = Record<number, { name: string; about: string }>;
 
@@ -8,6 +8,6 @@ const users: Users = {
   3: { name: 'anonymous #3', about: 'Awesome.' },
 };
 
-export function get(req: PrextRequest, res: PrextResponse) {
+export function get(req: ZelyRequest, res: ZelyResponse) {
   res.json(users[req.params.id]);
 }

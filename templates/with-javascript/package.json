@@ -2,10 +2,10 @@
   "name": "custom-name",
   "version": "1.0.0",
   "dependencies": {
-    "prext": "latest"
+    "zely": "latest"
   },
   "scripts": {
-    "dev": "prext dev",
-    "build": "prext build"
+    "dev": "zely dev",
+    "build": "zely build"
   }
 }

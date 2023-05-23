@@ -1,6 +1,6 @@
-# prext app
+# zely app
 
-[see our documentation!](https://prext.netlify.app)
+[see our documentation!](https://zely.netlify.app)
 
 ---
 

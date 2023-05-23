@@ -1,17 +1,17 @@
-import { defineConfig } from 'prext/config';
+import { defineConfig } from 'zely/config';
 import { react, prexty } from 'prexty';
 
 export default defineConfig({
   routes: './pages',
 
   // auto middleware mode
-  // https://prext.netlify.app/guide/middlewares#auto-mode
+  // https://zely.netlify.app/guide/middlewares#auto-mode
 
   allowAutoMiddlewares: false,
   // middlewareDirectory: './middlewares',
 
   // 404 page
-  // https://prext.netlify.app/guide/routing#404-page
+  // https://zely.netlify.app/guide/routing#404-page
 
   error(req, res) {
     res.statusCode = 404;

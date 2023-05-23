@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>create-prext</h1>
-  a Tool creating prext app
+  <h1>create-zely</h1>
+  a Tool creating zely app
 </div>
 
 ---
 
 ```bash
-> npx create-prext
+> npx create-zely
 
 ? Project name: my-app
 ? Directory: backend

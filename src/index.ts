@@ -18,7 +18,7 @@ const msg = {
   '>': '>'.red,
 };
 
-export function createPrext(opts: Options) {
+export function createZely(opts: Options) {
   console.log('\nCloning Templates...'.cyan);
 
   fs.copySync(join(__dirname, '../', map[opts.template]), opts.dir);

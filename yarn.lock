@@ -1742,10 +1742,10 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
-osik@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/osik/-/osik-0.0.3.tgz#0cc07e0c036376085917153f3fb8ec30b02fe90a"
-  integrity sha512-V3/PpkeMqlFHIhA/0AfO+HgDqgLKrEIrneAaM1j4yMLZHOjG+8uRzkqLZba6Me6INWWU/0Nf6/MFe/zJDp3Ptw==
+osik@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/osik/-/osik-0.0.5.tgz#e156d259bec908ce7aa3c30f19c11c27c6fa3faa"
+  integrity sha512-OKTM9qonZyhiXWqffLGRCgTZKovDk++Icq9if2mnhVxbePIxu6iacdmQBw+ejK/MyVmOH+/dMcy/jYoEO7q03w==
 
 p-limit@^3.0.2:
   version "3.1.0"
@@ -1802,18 +1802,6 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
-
-prext@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/prext/-/prext-2.0.2.tgz#1e2d6f2e36ff97692c420def7f7950ef2375bd98"
-  integrity sha512-eRuLNf6Y9axflQEgrZRbWGyyBigXhvByeokPfRjOAueZ4bahxb+/juIeC16Lee2MBvAazqv93Lt9RoSJj34kug==
-  dependencies:
-    "@osik/path-regexp" "^0.0.1"
-    animaux "^0.0.4"
-    chokidar "^3.5.3"
-    esbuild "^0.17.6"
-    esbuild-node-externals "^1.6.0"
-    osik "^0.0.3"
 
 prexty@^1.1.3:
   version "1.1.3"
@@ -2243,3 +2231,15 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zely@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/zely/-/zely-0.0.1.tgz#36cd3220807dabc5d58dba0cc2106e3561f968b7"
+  integrity sha512-JSiqRYGWzbfN11b1URyUI5mIurWnVmEx5HTSytO7C0+dpu7BuCtkPb1j6Ep4lmEN2vCsG6wYGHM6s1AUJsAwEA==
+  dependencies:
+    "@osik/path-regexp" "^0.0.1"
+    animaux "^0.0.4"
+    chokidar "^3.5.3"
+    esbuild "^0.17.6"
+    esbuild-node-externals "^1.6.0"
+    osik "^0.0.5"

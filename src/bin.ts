@@ -2,11 +2,11 @@
 
 import inquirer from 'inquirer';
 import animaux from 'animaux';
-import { createPrext } from 'src';
+import { createZely } from 'src';
 
 import { version } from '../package.json';
 
-const app = animaux('create-prext');
+const app = animaux('create-zely');
 
 app.version(version).action(async () => {
   const { name } = await inquirer.prompt({
@@ -26,7 +26,7 @@ app.version(version).action(async () => {
     choices: ['typescript', 'javascript', 'react'],
   });
 
-  createPrext({ appName: name, dir, template });
+  createZely({ appName: name, dir, template });
 });
 
 app.parse(process.argv);

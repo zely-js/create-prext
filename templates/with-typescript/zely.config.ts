@@ -1,12 +1,12 @@
-const { defineConfig } = require('prext');
+import { defineConfig } from 'zely/config';
 
-const { Message } = require('./middlewares/message');
+import { Message } from './middlewares/message';
 
-module.exports = defineConfig({
+export default defineConfig({
   routes: './pages',
 
   // auto middleware mode
-  // https://prext.netlify.app/guide/middlewares#auto-mode
+  // https://zely.netlify.app/guide/middlewares#auto-mode
 
   // allowAutoMiddlewares: true,
   // middlewareDirectory: './middlewares',
@@ -14,7 +14,7 @@ module.exports = defineConfig({
   middlewares: [Message],
 
   // 404 page
-  // https://prext.netlify.app/guide/routing#404-page
+  // https://zely.netlify.app/guide/routing#404-page
 
   error(req, res) {
     res.statusCode = 404;
