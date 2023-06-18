@@ -1,14 +1,18 @@
 {
   "name": "create-zely",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "a Tool creating zely app",
   "bin": {
     "create-prext": "./dist/bin.js"
   },
+  "types": "./index.d.ts",
   "files": [
     "dist",
-    "templates"
+    "templates",
+    "index.d.ts",
+    ".npmignore"
   ],
+  "repository": "https://github.com/zely-js/create-prext",
   "main": "./dist/index.js",
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
