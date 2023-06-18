@@ -16,7 +16,10 @@
 
     "types": ["node"],
 
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "$*": ["./*"]
+    }
   },
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }

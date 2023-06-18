@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 import 'colors';
 
-import map from '../templates/map.json';
+import map from '$templates/map.json';
 
 export interface Options {
   appName: string;
@@ -18,15 +18,19 @@ const msg = {
   '>': '>'.red,
 };
 
-export function createZely(opts: Options) {
-  console.log('\nCloning Templates...'.cyan);
-
+export function cloneTemplate(opts: Options) {
   fs.copySync(join(__dirname, '../', map[opts.template]), opts.dir);
   fs.copySync(join(__dirname, '../', map.__default), opts.dir);
 
   const pkgJSON = readFileSync(join(opts.dir, 'package.json')).toString();
 
   writeFileSync(join(opts.dir, 'package.json'), pkgJSON.replace('custom-name', opts.appName));
+}
+
+export function createZely(opts: Options) {
+  console.log('\nCloning Templates...'.cyan);
+
+  cloneTemplate(opts);
 
   console.log('');
   console.log(`  ${msg.$} cd ${opts.dir}`);
