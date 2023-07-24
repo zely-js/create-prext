@@ -1,6 +1,6 @@
 {
   "name": "create-zely",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "a Tool creating zely app",
   "bin": {
     "create-prext": "./dist/bin.js"
@@ -27,7 +27,7 @@
     "eslint-plugin-import": "^2.25.4",
     "react": "^18.2.0",
     "typescript": "^4.8.2",
-    "zely": "^1.0.0-next.6"
+    "zely": "^1.0.0-next.7"
   },
   "scripts": {
     "build": "node build.js"

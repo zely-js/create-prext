@@ -2230,10 +2230,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zely@^1.0.0-next.6:
-  version "1.0.0-next.6"
-  resolved "https://registry.yarnpkg.com/zely/-/zely-1.0.0-next.6.tgz#07e0db12ca440ee6e8967c3214e9d4345279e9e1"
-  integrity sha512-ZWYyg8aDI+3kdRPYL96lhbHhWm6IOknJuqTeuywUdp8dKmOVWXXttuYaXTGN4aQFyJR/VeL8Acg2n66LX/RR/g==
+zely@^1.0.0-next.7:
+  version "1.0.0-next.7"
+  resolved "https://registry.yarnpkg.com/zely/-/zely-1.0.0-next.7.tgz#5ca2e482e7bc6c90cef8eb7fe479961100cd8595"
+  integrity sha512-KqTmsm1DIrL63bFRxuwiknaWvvkIT1Kb6O17jLPXCTvOVz67zUp3YKEVG2uQE9uhsPyxX1yeHJnevEtH3ImSTg==
   dependencies:
     animaux "^0.0.4"
     chokidar "^3.5.3"
