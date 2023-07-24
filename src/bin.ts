@@ -23,7 +23,7 @@ app.version(version).action(async () => {
     name: 'template',
     message: 'Template:',
     type: 'list',
-    choices: ['typescript', 'javascript', 'react'],
+    choices: ['typescript', 'javascript', 'export-default', 'react'],
   });
 
   createZely({ appName: name, dir, template });

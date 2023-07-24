@@ -1,0 +1,11 @@
+{
+  "name": "custom-name",
+  "version": "1.0.0",
+  "dependencies": {
+    "zely": "next"
+  },
+  "scripts": {
+    "dev": "zely dev",
+    "build": "zely build"
+  }
+}

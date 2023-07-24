@@ -3,5 +3,6 @@
 
   "typescript": "/templates/with-typescript",
   "javascript": "/templates/with-javascript",
+  "export-default": "/templates/with-typescript-default",
   "react": "/templates/with-react"
 }
