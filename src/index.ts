@@ -8,7 +8,7 @@ import map from '$templates/map.json';
 
 export interface Options {
   appName: string;
-  template: 'javascript' | 'typescript';
+  template: 'javascript' | 'typescript' | 'default-javascript' | 'default-typescript';
   dir: string;
 }
 

@@ -1,4 +1,4 @@
-import type { ServerDataHandler } from 'zely';
+import type { PageHandler } from 'zely';
 import { GET } from 'zely/methods';
 
-export default [(req) => GET({ message: (req as any).message })] as ServerDataHandler[];
+export default [(ctx) => GET({ message: (ctx.request as any).message })] satisfies PageHandler[];

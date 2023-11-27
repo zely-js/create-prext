@@ -21,12 +21,24 @@ app.version(version).action(async () => {
   });
   const { template } = await inquirer.prompt({
     name: 'template',
-    message: 'Template:',
-    type: 'list',
-    choices: ['typescript', 'javascript', 'export-default', 'react'],
+    message: 'Use Typescript:',
+    type: 'confirm',
+    default: true,
+  });
+  const { exportdefault } = await inquirer.prompt({
+    name: 'exportdefault',
+    message: 'Use Export Default:',
+    type: 'confirm',
+    default: true,
   });
 
-  createZely({ appName: name, dir, template });
+  createZely({
+    appName: name,
+    dir,
+    template: template
+      ? `${exportdefault ? 'default-' : ''}typescript`
+      : `${exportdefault ? 'default-' : ''}javascript`,
+  });
 });
 
 app.parse(process.argv);

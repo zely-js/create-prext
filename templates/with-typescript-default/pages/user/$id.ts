@@ -1,4 +1,4 @@
-import type { ServerDataHandler } from 'zely';
+import type { PageHandler } from 'zely';
 import { GET } from 'zely/methods';
 
 type Users = Record<number, { name: string; about: string }>;
@@ -9,4 +9,4 @@ const users: Users = {
   3: { name: 'anonymous #3', about: 'Awesome.' },
 };
 
-export default [(req) => GET(users[req.params.id])] as ServerDataHandler[];
+export default [(ctx) => GET(users[ctx.params.id])] satisfies PageHandler[];
