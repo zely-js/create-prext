@@ -1,6 +1,6 @@
 {
   "name": "create-zely",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "a Tool creating zely app",
   "bin": {
     "create-prext": "./dist/bin.js"
